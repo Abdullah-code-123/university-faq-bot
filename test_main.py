@@ -5,8 +5,8 @@ from unittest.mock import AsyncMock
 
 client = TestClient(app)
 class MockMessage:
-     content = """{"explanation":"Test",
-    "relatedTopics":["a","b"],
+     content = """{"answer":"Test",
+    "relatedInstruction":"Test",
     "difficulty":1}"""
 class MockChoice:
         message = MockMessage()
