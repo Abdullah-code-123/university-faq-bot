@@ -1,5 +1,5 @@
 from starlette.testclient import TestClient
-from weekproject import app
+from main import app
 from unittest.mock import AsyncMock
 
 
