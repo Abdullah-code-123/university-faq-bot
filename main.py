@@ -147,8 +147,8 @@ async def enterQuery(q:ioquestion):
         model="llama-3.3-70b-versatile",
         response_format={"type":"json_object"},
         messages=[
-            {"role":"system","content":"""
-             <context>take {result.RelatedInstruction} as context</context>
+            {"role":"system","content":f"""
+             <context>take {result.relatedInstruction} as context</context>
              <role>your job is to explain the instruction in such a way that it is easy for a layman to undertsnd</role>
              <instruction>use the <context> tag and answer in a valid json format</instruction>
              <output_format>
