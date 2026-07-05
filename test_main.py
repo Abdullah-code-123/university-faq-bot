@@ -7,7 +7,7 @@ client = TestClient(app)
 class MockMessage:
      content = """{"answer":"Test",
     "relatedInstruction":"Test",
-    "difficulty":1}"""
+    "instructionExplanation":"Test"}"""
 class MockChoice:
         message = MockMessage()
 class MockResponse:
