@@ -155,7 +155,7 @@ async def enterQuery(q:ioquestion):
              "instructionExplanation":"...."
              </output_format>
              """},
-             {"role":"user","content":"""
+             {"role":"user","content":f"""
               
               <question>
               {result.RelatedInstruction}
