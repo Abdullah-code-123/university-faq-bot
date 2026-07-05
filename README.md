@@ -1,5 +1,3 @@
-# university-faq-bot
-RAG-powered university FAQ bot built with FastAPI, Sentence Transformers, and Groq — answers student policy questions grounded in retrieved documents with injection detection and rate limiting
 # University FAQ Bot — RAG-Powered Student Assistant
 
 A FastAPI service that answers university policy questions 
